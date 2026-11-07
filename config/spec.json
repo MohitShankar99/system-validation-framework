@@ -1,0 +1,18 @@
+{
+  "boot": { "simulated_time_s": 0.05, "max_time_s": 0.5 },
+  "sensors": {
+    "samples": 50,
+    "temperature_c": { "min": 20.0, "max": 85.0 },
+    "voltage_v": { "min": 11.0, "max": 13.0 }
+  },
+  "commands": {
+    "max_p95_latency_ms": 20,
+    "samples": 200,
+    "expected_responses": {
+      "PING": "PONG",
+      "VERSION": "FW-1.4.2",
+      "STATUS": "STATE=RUNNING",
+      "BOGUS": "ERR:UNKNOWN_COMMAND"
+    }
+  }
+}

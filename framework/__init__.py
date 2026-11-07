@@ -1,0 +1,1 @@
+"""Lightweight system validation framework."""
